@@ -115,10 +115,13 @@ form{
 }
 .Bodynicio{
     width: 100%;
-    height: 81.25rem;
+    height: 2000px;
     background-image: url("../assets/img/pag\ de\ inicio.jpg");
     background-position: center;
     background-size: cover;
+}
+.main-index{
+    height: 90%;
 }
 .Bodyplan{
     width: 100%;
@@ -143,6 +146,9 @@ display: flex;
 gap: 20px;
 list-style: none;
 margin: 0px 10px;
+}
+.main-p{
+    height: 95%;
 }
 .Bodynsumos{
     width: 100%;
@@ -390,12 +396,6 @@ font-size: 20px;
         justify-self: center;
         margin-top: 55px;
     }
-    .section-tra{
-        justify-content: end;
-        justify-self: flex-end;
-        margin-left: 65px;
-        margin-bottom: 3px;
-    }
     .headerPlan{
         background-color:rgba(0, 0, 0, 0.733);
     }
@@ -419,7 +419,7 @@ font-size: 20px;
     .inicio-bar{
         display: none;
     }
-}
+    }
 @media(max-width:320px){
     .headerIndex{
         flex-direction: column;
@@ -436,12 +436,6 @@ font-size: 20px;
         margin-bottom: 3px;
         margin-left: 35px;
     }
-    .titu-trainer{
-        margin-top: 50px;
-        background-color: black;
-        color: white;
-        font-size: 35px;
-    }
     .h1Enca{
         margin-top: 15px;
         background-color: red;
@@ -449,15 +443,6 @@ font-size: 20px;
     }
     .presentacion{
         color: black;
-    }
-    .parratra{
-        font-size: 30px;
-        background-color: red;
-        color: black;
-        padding-left: 30px;
-    }
-    .trainerimg{
-        display: none;
     }
     form{
         display: none;
