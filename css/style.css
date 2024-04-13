@@ -375,6 +375,21 @@ font-size: 20px;
     .headerIndex{
         background-color: rgba(0, 0, 0, 0.733);
     }
+    .main-p{
+        margin-right: 60px;
+        width: 100%;
+        height: 50%;
+    }
+    .h1Plan{
+        margin-left: 5px;
+    }
+    .Contac-plan{
+    display: flex;
+    flex-direction: row-reverse;
+    list-style: none;
+    background-color: red;
+    gap: 10px;
+    }
     .Clasindex li a{
         color: white;
     }
@@ -415,6 +430,10 @@ font-size: 20px;
         justify-content: center;
         align-items: center;
         gap: 50px;
+    }
+    .Bodyben{
+        width: 100%;
+        height: 500px;
     }
     .inicio-bar{
         display: none;
