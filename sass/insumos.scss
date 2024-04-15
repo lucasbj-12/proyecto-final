@@ -1,0 +1,165 @@
+h1{
+    color: red;
+    margin-top: 50px;
+}
+.h1Insu{
+    text-align: center;
+    text-shadow: 2px 5px 5px grey;
+    font-family: "Oswald", sans-serif;
+}
+.Bodynsumos{
+    width: 100%;
+    height: 31.25rem;
+    background-image: url("../assets/img/insumos.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.section-grid{
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    width: 100%;
+    grid-template-rows: repeat(10,0.5fr);
+    height: 800px;
+    margin-top: 100px;
+}
+.creatina-img{
+grid-column: 1 / 3;
+grid-row: 1 / 2;
+width: 100%;
+height: 100%;
+}
+.titu-prote{
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+    position: relative;
+    color: black;
+}
+.parracrea{
+    grid-column: 1 / 3;
+    grid-row: 1/ 2;
+    justify-self: end;
+    align-self: center;
+    color: black;
+}
+.accesorios-img{
+grid-column: 4 / 6;
+grid-row: 1 / 2;
+width: 100%;
+height: 100%;
+}
+.titu-acc{
+    grid-column: 4 / 6;
+    grid-row: 1 / 2;
+    position: relative;
+    color: black;
+}
+.parra-acc{
+grid-column: 4 / 6;
+grid-row: 1 / 2;
+justify-self: end;
+align-self: center;
+color: black;
+}
+.maquinarias-img{
+grid-column: 7 / 9;
+grid-row: 1 / 2;
+width: 100%;
+height: 100%;
+}
+
+.titu-maqui{
+    grid-column: 7 / 9;
+    grid-row: 1 / 2;
+    position: relative;
+    color: white;
+}
+.parramaqui{
+    grid-column: 7 / 9;
+    grid-row: 1 / 2;
+    justify-self: end;
+    align-self: center;
+    color: white;
+    margin-right: 30px;
+}
+.h2Main{
+    color: white;
+}
+@media(max-width:768px){
+    .headerinsu{
+        background-color: #1c22388e;
+    }
+    .inicio-insu{
+        display: none;
+    }
+    .Bodynsumos{
+        width: 100%;
+        height: 31.25rem;
+        background-image: url("../assets/img/insumos.jpg");
+        background-position:center;
+        background-size:cover;
+    }
+    .titu-prote{
+        font-size: 15px;
+    }
+    .navbarinsu li a{
+        color: white;
+    }
+}
+@media(max-width:320px){
+    .h1Insu{
+        background-color: black;
+    }
+    .headerinsu{
+        flex-direction: column;
+    }
+    .navbarinsu{
+        flex-direction: column;
+    }
+    .navbarinsu li a{
+        font-size: 30px;
+        margin-left: 35px;
+    }
+    .navbarinsu .inicio-insu{
+        display: none;
+    }
+    .creatina-img{
+        grid-column: 2 / 8;
+        grid-row: 1 / 3;
+    }
+    .titu-prote{
+        grid-column: 2 / 8;
+        grid-row: 1 / 2;
+        font-size: 15px;
+        color: black;
+        position: relative;
+    }
+    .parracrea{
+        display: none;
+    }
+    .accesorios-img{
+        grid-column: 2 / 8;
+        grid-row: 4 / 6;
+    }
+    .titu-acc{
+        grid-column: 4 / 6;
+        grid-row: 4 / 6;
+        font-size: 15px;
+        position: relative;
+        color: black;
+    }
+    .parra-acc{
+        display: none;
+    }
+    .maquinarias-img{
+        grid-column: 2 / 8;
+        grid-row: 7 / 9;
+    }
+    .titu-maqui{
+        grid-column: 4 / 6;
+        grid-row: 7 / 9;
+        font-size: 15px;
+    }
+    .parramaqui{
+        display: none;
+    }
+}

@@ -1,0 +1,55 @@
+.h1Plan{
+    text-align: center;
+    text-shadow: 2px 5px 5px grey;
+    font-family: "Oswald", sans-serif;
+}
+.Sectionplan{
+    display: grid;
+    gap: 300px;
+    justify-content: space-around;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.planbronce{
+    width: 200px;
+    height: 350px;
+    background-color: rgba(151, 104, 17, 0.986);
+}
+.planplata{
+    width: 200px;
+    height: 350px;
+background-color: silver;
+}
+.planoro{
+    width: 200px;
+    height: 350px;
+    background-color: gold;
+}
+.Bodyplan{
+    width: 100%;
+    height: 100%;
+    background-image: url("../assets/img/planes.jpg");
+    background-position: unset;
+    background-size: cover;
+}
+.Sectionplan{
+    color: white;
+    justify-items: center;
+}
+.Sectionplan ul li{
+    justify-items: center;
+    margin-left: 20px;
+    margin-top: 35px;
+}
+.Sectionplan h3{
+    margin-left: 50px;
+    text-decoration: underline ;
+}
+.lista-bronce li::marker{
+    content: "➡️";
+}
+.lista-plata li::marker{
+    content: "➡️";
+}
+.lista-oro li::marker{
+    content: "➡️";
+}
