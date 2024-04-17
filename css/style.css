@@ -5,6 +5,7 @@
   box-sizing: border-box;
 }
 
+/*barra de navegacion y logo*/
 .logo {
   border-radius: 60%;
 }
@@ -21,12 +22,6 @@ nav a img {
   margin: 0px 10px;
 }
 
-.Clasindex li a {
-  text-decoration: none;
-  color: #1C2238;
-  font-size: 20px;
-}
-
 .headerPlan {
   display: flex;
   justify-content: space-between;
@@ -34,37 +29,9 @@ nav a img {
   background-color: rgba(255, 0, 0, 0.705);
 }
 
-.Clasindex li a:hover {
-  color: white;
-}
-
-.headerIndex {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: rgba(255, 0, 0, 0.699);
-}
-
 form {
   display: flex;
   align-self: center;
-}
-
-.navbarP li a {
-  text-decoration: none;
-  color: #1C2238;
-  font-size: 20px;
-}
-
-.navbarP li a:hover {
-  color: white;
-}
-
-.navbarP {
-  display: flex;
-  gap: 20px;
-  list-style: none;
-  margin: 0px 10px;
 }
 
 .Contac-plan {
@@ -151,6 +118,7 @@ form input:focus {
   color: white;
 }
 
+/*pie de pagina*/
 .Contac {
   display: flex;
   background-color: red;
@@ -159,24 +127,23 @@ form input:focus {
   flex-direction: row-reverse;
 }
 
-.h1Enca {
+/*header y main de index*/
+.main-index {
+  height: 100%;
+  width: 100;
+}
+.main-index .h1Enca {
   margin-top: 55px;
   text-align: center;
   text-shadow: 2px 5px 5px grey;
   font-family: "Oswald", sans-serif;
 }
-
-.presentacion {
+.main-index .presentacion {
   font-size: 25px;
   font-family: "Anta", sans-serif;
   font-weight: 500;
   color: white;
   margin-top: 90px;
-}
-
-.main-index {
-  height: 100%;
-  width: 100;
 }
 
 .Bodynicio {
@@ -187,6 +154,28 @@ form input:focus {
   background-size: cover;
 }
 
+.headerIndex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(255, 0, 0, 0.699);
+}
+.headerIndex .Clasindex {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  margin: 0px 10px;
+}
+.headerIndex .Clasindex li a {
+  text-decoration: none;
+  color: #1C2238;
+  font-size: 20px;
+}
+.headerIndex .Clasindex li a:hover {
+  color: white;
+}
+
+/*header y main de planes*/
 .h1Plan {
   text-align: center;
   text-shadow: 2px 5px 5px grey;
@@ -203,19 +192,19 @@ form input:focus {
 .planbronce {
   width: 200px;
   height: 350px;
-  background-color: rgba(151, 104, 17, 0.986);
+  background-color: rgb(165, 42, 42);
 }
 
 .planplata {
   width: 200px;
   height: 350px;
-  background-color: silver;
+  background-color: rgb(192, 192, 192);
 }
 
 .planoro {
   width: 200px;
   height: 350px;
-  background-color: gold;
+  background-color: rgb(255, 215, 0);
 }
 
 .Bodyplan {
@@ -224,6 +213,27 @@ form input:focus {
   background-image: url("../assets/img/planes.jpg");
   background-position: unset;
   background-size: cover;
+}
+
+.headerPlan {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(255, 0, 0, 0.705);
+}
+.headerPlan .navbarP {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  margin: 0px 10px;
+}
+.headerPlan .navbarP li a {
+  text-decoration: none;
+  color: #1C2238;
+  font-size: 20px;
+}
+.headerPlan .navbarP li a:hover {
+  color: white;
 }
 
 .Sectionplan {
@@ -303,6 +313,7 @@ form input:focus {
   color: white;
 }
 
+/*header y grid de contacto*/
 .Bodycon {
   width: 100%;
   height: 31.25rem;
@@ -338,12 +349,16 @@ form input:focus {
   justify-self: self-start;
 }
 
-.parracon {
+.parracon, .parraconDos {
   grid-column: 1/2;
   grid-row: 1/2;
   align-self: center;
   justify-self: self-start;
   color: white;
+}
+
+.parraconDos {
+  color: red;
 }
 
 h1 {
@@ -631,6 +646,9 @@ h1 {
     background-color: rgba(28, 34, 56, 0.5333333333);
   }
   .inicio-con {
+    display: none;
+  }
+  .inicio-bar {
     display: none;
   }
   .navbarcon li a {

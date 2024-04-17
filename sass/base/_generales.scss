@@ -1,8 +1,10 @@
+$color-barra: rgb(19, 19, 78);
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+/*barra de navegacion y logo*/
 .logo{
     border-radius: 60%;
 }
@@ -16,44 +18,20 @@ nav a img{
     gap: 20px;
     margin: 0px 10px;
 }
-.Clasindex li a{
-    text-decoration: none;
-    color:#1C2238;
-    font-size: 20px;
-}
+
 .headerPlan{
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: rgba(255, 0, 0, 0.705);
 }
-.Clasindex li a:hover{
-    color: white;
-}
-.headerIndex{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: rgba(255, 0, 0, 0.699);
-}
+
 form{
     display: flex;
     align-self: center;
 }
-.navbarP li a{
-    text-decoration: none;
-    color: #1C2238;
-    font-size: 20px;
-}
-.navbarP li a:hover{
-    color: white;
-}
-.navbarP{
-display: flex;
-gap: 20px;
-list-style: none;
-margin: 0px 10px;
-}
+
+
 .Contac-plan{
     display: flex;
     background-color: red;

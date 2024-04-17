@@ -1,3 +1,4 @@
+/*header y main de planes*/
 .h1Plan{
     text-align: center;
     text-shadow: 2px 5px 5px grey;
@@ -12,25 +13,41 @@
 .planbronce{
     width: 200px;
     height: 350px;
-    background-color: rgba(151, 104, 17, 0.986);
+    background-color: rgb(165, 42, 42);
 }
 .planplata{
     width: 200px;
     height: 350px;
-background-color: silver;
+background-color: rgb(192, 192, 192);
 }
 .planoro{
     width: 200px;
     height: 350px;
-    background-color: gold;
+    background-color: rgb(255, 215, 0);
 }
 .Bodyplan{
     width: 100%;
     height: 100%;
     background-image: url("../assets/img/planes.jpg");
     background-position: unset;
-    background-size: cover;
-}
+    background-size: cover;}
+.headerPlan{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 0, 0, 0.705);
+.navbarP{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin: 0px 10px;
+}.navbarP li a{
+        text-decoration: none;
+        color: #1C2238;
+        font-size: 20px;
+    }.navbarP li a:hover{
+        color: white;}
+    }
 .Sectionplan{
     color: white;
     justify-items: center;
