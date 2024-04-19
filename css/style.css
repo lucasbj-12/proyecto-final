@@ -264,6 +264,10 @@ form input:focus {
   content: "➡️";
 }
 
+.Contac-plan {
+  flex-direction: row-reverse;
+}
+
 .h1Ben {
   text-align: center;
   text-shadow: 2px 5px 5px grey;
@@ -541,7 +545,7 @@ h1 {
 }
 @media (max-width: 768px) {
   .headerIndex {
-    background-color: rgba(0, 0, 0, 0.733);
+    background-color: rgba(28, 34, 56, 0.5333333333);
   }
   .main-p {
     margin-right: 60px;
@@ -561,7 +565,7 @@ h1 {
     background-color: red;
     gap: 10px;
   }
-  .Clasindex li a {
+  .navbar-index .Clasindex li a {
     color: white;
   }
   form {
@@ -585,7 +589,7 @@ h1 {
   .headerPlan {
     background-color: rgba(0, 0, 0, 0.733);
   }
-  .navbarP li a {
+  .barraP .navbarP li a {
     color: white;
   }
   .Bodyplan {

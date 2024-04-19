@@ -1,6 +1,6 @@
 @media (max-width: 768px){
     .headerIndex{
-        background-color: rgba(0, 0, 0, 0.733);
+        background-color: rgba(28, 34, 56, 0.5333333333);
     }
     .main-p{
         margin-right: 60px;
@@ -20,18 +20,18 @@
         background-color: red;
         gap: 10px;
     }
-    .Clasindex li a{
+    .navbar-index .Clasindex li a{
         color: white;
     }
     form{
         color: white;
     }
     .Bodynicio{
-         width: 100%;
-         height: 31.25rem;
-         background-image: url("../assets/img/pag de inicio.jpg");
-         background-position: center;
-         background-size: cover;
+        width: 100%;
+        height: 31.25rem;
+        background-image: url("../assets/img/pag de inicio.jpg");
+        background-position: center;
+        background-size: cover;
     }
     .presentacion{
         font-size: 20px;
@@ -44,7 +44,7 @@
     .headerPlan{
         background-color: rgba(0, 0, 0, 0.733);
     }
-    .navbarP li a{
+    .barraP .navbarP li a{
         color: white;
     }
     .Bodyplan{
