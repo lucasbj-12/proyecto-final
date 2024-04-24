@@ -175,6 +175,25 @@ form input:focus {
   color: white;
 }
 
+.card-1 {
+  width: 18.75rem;
+  height: 31.25rem;
+  border-radius: 10px 10px 10px 10px;
+  margin: 40px;
+  overflow: hidden;
+  background-color: rgba(255, 0, 0, 0.76);
+  box-shadow: 4px 4px 6px black;
+}
+
+.contenido-card-1 .boton {
+  margin-left: 90px;
+}
+
+.card-1 img {
+  width: 100%;
+  height: 50%;
+}
+
 /*header y main de planes*/
 .h1Plan {
   text-align: center;
