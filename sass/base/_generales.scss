@@ -25,17 +25,11 @@ nav a img{
     align-items: center;
     background-color: rgba(255, 0, 0, 0.705);
 }
-
 form{
     display: flex;
     align-self: center;
 }
-.Contac-plan{
-    display: flex;
-    background-color: red;
-    gap: 10px;
-    list-style: none;
-}
+
 .navbarinsu{
     display: flex;
     list-style: none;
@@ -99,4 +93,9 @@ form{
 form input:focus{
     background-color:black;
     color: white;
+}
+.Contac{
+    display: flex;
+    align-items: flex-end;
+    align-content: end;
 }

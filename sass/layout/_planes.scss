@@ -9,6 +9,7 @@
     gap: 300px;
     justify-content: space-around;
     grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 750px;
 }
 .planbronce{
     width: 200px;
@@ -27,9 +28,9 @@
 }
 .Bodyplan{
     width: 100%;
-    height: 1500px;
+    height: 2000px;
     background-image: url("../assets/img/planes.jpg");
-    background-position: unset;
+    background-position: inherit;
     background-size: cover;
 }
 .headerPlan{
@@ -48,6 +49,19 @@
         font-size: 20px;
     }.navbarP li a:hover{
         color: white;}
+}
+.mainplan{
+    width: 100%;
+    height: 50%;
+}
+.Contac-plan{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: red;
+    flex-direction: row-reverse;
+    list-style: none;
+    gap: 15px;
+    margin-top: 1500px;
 }
 .Sectionplan{
     color: white;
@@ -69,8 +83,4 @@
 }
 .lista-oro li::marker{
     content: "➡️";
-}
-.Contac-plan{
-    flex-direction: row-reverse;
-    margin-top: 870px;
 }
