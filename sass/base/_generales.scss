@@ -1,8 +1,9 @@
-$color-barra: rgb(19, 19, 78);
+/*$color-barra: rgb(19, 19, 78);*/
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+   /* border: 1px solid green;*/
 }
 /*barra de navegacion y logo*/
 .logo{
@@ -97,5 +98,4 @@ form input:focus{
 .Contac{
     display: flex;
     align-items: flex-end;
-    align-content: end;
 }

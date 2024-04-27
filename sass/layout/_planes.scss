@@ -1,4 +1,9 @@
 /*header y main de planes*/
+$colorplanes:(
+    oro: rgb(255, 215, 0),
+    plata: rgb(192, 192, 192),
+    bronce: rgb(214, 143, 12),
+);
 .h1Plan{
     text-align: center;
     text-shadow: 2px 5px 5px grey;
@@ -14,7 +19,7 @@
 .planbronce{
     width: 200px;
     height: 350px;
-    background-color: rgb(165, 42, 42);
+    background-color: map-get($colorplanes, bronce );
 }
 .planplata{
     width: 200px;
@@ -28,7 +33,7 @@
 }
 .Bodyplan{
     width: 100%;
-    height: 2000px;
+    height: 100px;
     background-image: url("../assets/img/planes.jpg");
     background-position: inherit;
     background-size: cover;

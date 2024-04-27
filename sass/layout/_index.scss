@@ -1,3 +1,6 @@
+$background-color: rgba(255, 0, 0, 0.664);
+$color-letrasbarra:#1C2238;
+$color-presentacion: black;
 /*header y main de index*/
 .main-index{
     height: 100%;
@@ -13,13 +16,14 @@
     font-size: 23px;
     font-family: "Anta", sans-serif;
     font-weight: 300;
-    color: black;
+    color: $color-presentacion;
     margin-top: 15px;
     background-color: rgba(245, 245, 220, 0.548);
+    margin: 15px;
 }
 .Bodynicio{
     width: 100%;
-    height: 1900px;
+    height: 1850px;
     background-image: url("../assets/img/pag\ de\ inicio.jpg");
     background-position: center;
     background-size: cover;
@@ -27,8 +31,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgba(255, 0, 0, 0.699);
-    .Clasindex{
+    background-color: $background-color;
+}.Clasindex{
         display: flex;
         list-style: none;
         gap: 20px;
@@ -36,12 +40,12 @@
     }
 .Clasindex li a{
     text-decoration: none;
-    color:#1C2238;
+    color: $color-letrasbarra;
     font-size: 20px;
 }.Clasindex li a:hover{
     color: white;
 }
-}
+
 .cards{
     display: flex;
     flex-wrap: wrap;
@@ -55,7 +59,7 @@
     margin: 40px;
     overflow: hidden;
     background-color: rgba(255, 0, 0, 0.76);
-    box-shadow: 4px 4px 6px black;
+    box-shadow: 4px 4px 6px grey;
     color: white;
 }
 .contenido-card-1 .boton{
@@ -75,7 +79,7 @@ background-color: black;
     margin: 40px;
     overflow: hidden;
     background-color: rgba(9, 238, 66, 0.5);
-    box-shadow: 4px 4px 6px black;
+    box-shadow: 4px 4px 6px grey;
     color: white;
 }
 .contenido-card-2 .boton{
@@ -116,5 +120,12 @@ background-color: black;
 }
 .info{
     background-color: rgba(255, 0, 0, 0.705);
-    width: 35%;
-}
+    width: 80%;
+    border: 4px solid white;
+    margin-left: 140px;
+    margin-top: 80px;
+    h2{
+            margin-left: 300px;
+            color: white;
+        }
+    }
