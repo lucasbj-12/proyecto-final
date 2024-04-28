@@ -9,6 +9,15 @@ $colorplanes:(
     text-shadow: 2px 5px 5px grey;
     font-family: "Oswald", sans-serif;
 }
+.presen-plan{
+    font-size: 23px;
+    font-family: "Anta", sans-serif;
+    font-weight: 300;
+    color: $color-presentacion;
+    margin-top: 15px;
+    background-color: rgba(245, 245, 220, 0.548);
+    margin: 15px;
+}
 .Sectionplan{
     display: grid;
     gap: 300px;
@@ -33,7 +42,7 @@ $colorplanes:(
 }
 .Bodyplan{
     width: 100%;
-    height: 100px;
+    height: 500px;
     background-image: url("../assets/img/planes.jpg");
     background-position: inherit;
     background-size: cover;
