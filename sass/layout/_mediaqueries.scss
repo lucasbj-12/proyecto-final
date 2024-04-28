@@ -1,3 +1,11 @@
+@media (max-width: 1245){
+    .info{
+        margin-bottom: 85px;
+    }
+    .Bodyplan{
+        width: 100%;
+    }
+}
 @media (max-width: 1024px){
     .Bodynsumos form{
         display: none;
@@ -6,6 +14,15 @@
 @media (max-width: 768px){
     .headerIndex{
         background-color: rgba(28, 34, 56, 0.5333333333);
+    }
+    .main-index .h1Enca{
+        background-color: black;
+    }
+    .info{
+    display: none;
+    }
+    .Contac-index{
+        margin-top: 1000px;
     }
     .main-p{
         margin-right: 60px;
@@ -34,7 +51,7 @@
     .Bodynicio{
         width: 100%;
         height: 31.25rem;
-        background-image: url("../assets/img/pag  inicio.");
+        background-image: linear-gradient(to bottom, #fd3a13, #c1202a, #81182a, #42141e, #000000);
         background-position: center;
         background-size: cover;
     }
@@ -54,10 +71,13 @@
     }
     .Bodyplan{
         width: 100%;
-        height: 500px;
-        background-image: url("../assets/img/planes.jpg");
-        background-position: initial;
-        background-size: cover;
+        height: 2200px;
+        background-image: linear-gradient(to bottom, #fd3a13, #c1202a, #81182a, #42141e, #000000);
+        background-position: center;
+        background-size: contain;
+    }
+    .h1Plan{
+        background-color: black;
     }
     .Sectionplan{
         display: flex;
@@ -66,12 +86,38 @@
         align-items: center;
         gap: 50px;
     }
+    .info-plan{
+        margin-right: 150px;
+        width: 80%;
+        h2{
+            margin-left: 13px;
+        }
+    }
     .Bodyben{
         width: 100%;
+        height: 2290px;
+        background-image: linear-gradient(to bottom, #fd3a13, #c1202a, #81182a, #42141e, #000000);
+    }
+    .h1Ben{
+        background-color: black;
+    }
+    .info-ben{
+        width: 50%;
         height: 500px;
+        margin-left: 200px;
+        h2{
+            margin-left: 50px;
+        }
     }
     .inicio-ben{
         display: none;
+    }
+    .section-nutri{
+        height: 14%;
+        width: 455px;
+        grid-template-columns: 1,1fr;
+        grid-template-rows: 1,1fr;
+        margin-left: 150px;
     }
     .titu-nutri{
         margin-left: 50px;
@@ -89,10 +135,26 @@
     }
     .Bodynsumos{
         width: 100%;
-        height: 31.25rem;
-        background-image: url("../assets/img/insumos.jpg");
+        height: 2000px;
+        background-image: linear-gradient(to bottom, #fd3a13, #c1202a, #81182a, #42141e, #000000);
         background-position: center;
         background-size: cover;
+    }
+    .Classben{
+        margin-top: 50px;
+    }
+    .section-grid{
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+        width: 89%;
+        margin-left: 40px;
+    }
+    .Bodycon{
+        background-image: linear-gradient(to bottom, #fd3a13, #c1202a, #81182a, #42141e, #000000);
+        height: 1000px;
+    }
+    .section-con{
+        display: none;
     }
     .titu-prote{
         font-size: 15px;
@@ -120,6 +182,24 @@
     }
 }
 @media (max-width: 320px){
+    .Bodynicio{
+        height: 2000px;
+    }
+    .cards{
+        margin-top: 350px;
+        .titulo-1{
+            font-size: 12px;
+        }
+        .titulo-2{
+            font-size: 12px;
+        }
+        .titulo-3{
+            font-size: 12px;
+        }
+        .boton{
+            display: none;
+        }
+    }
     .headerIndex {
         flex-direction: column;
     }
@@ -138,13 +218,13 @@
     }
     .h1Enca{
         margin-top: 15px;
-        background-color: red;
-        color: black;
+        background-color: black;
+        color: red;
     }
     .presentacion{
         color: black;
         font-weight: bolder;
-        height: 10%;
+        height: 600px;
     }
     form{
         display: none;
@@ -162,9 +242,13 @@
     .navbarP{
         flex-direction: column;
     }
-    .navbarP li a{
+    .barraP .navbarP li a{
         font-size: 30px;
         margin-left: 35px;
+    }
+    .info-plan{
+        width: 90%;
+        margin-left: 15px;
     }
     form{
         display: none;
@@ -185,10 +269,23 @@
     .navbarinsu .inicio-insu{
         display: none;
     }
+    .info-insu{
+        width: 90%;
+        margin-left: 15px;
+        h2{
+            margin-left: 50px;
+        }
+    }
     .section-grid{
-        grid-template-columns: auto;
-        height: 80%;
+        width: 90%;
+        grid-template-columns: 1,1fr;
+        grid-template-rows: 1,1fr;
+        height: 90%;
         gap: 3px;
+        margin-left: 15px;
+    }
+    .section-nutri{
+        display: none;
     }
     .section-grid img{
         width: 100%;
@@ -240,21 +337,25 @@
         margin-left: 30px;
     }
     .Bodyben{
-        width: 100%;
-        height: 100%;
-        background-image: url("../assets/img/nutricion.jpg");
+        background-image: linear-gradient(to bottom, #fd3a13, #c1202a, #81182a, #42141e, #000000);
+        height: 1000px;
         background-position: top;
         background-size: contain;
         background-repeat: repeat;
+    }
+    .info-ben{
+        width: 90%;
+        margin-left: 15px;
+        height: 600px;
     }
     .Classben{
         margin-top: 45px;
     }
     .nutrimg{
-        grid-column: 2/3;
-        grid-row: 2/4;
+    display: none;
     }
     .titu-nutri{
+        display: none;
         grid-column: 2/3;
         grid-row: 2/3;
         color: white;
@@ -286,10 +387,18 @@
     display: none;
     }
     .Bodycon{
-        width: 100%;
-        height: 31.25em;
-        background-image: url("../assets/img/pie de pag.jpg");
+        background-image: linear-gradient(to bottom, #fd3a13, #c1202a, #81182a, #42141e, #000000);
+        height: 1000px;
         background-position: center;
         background-size: cover;
+    }
+    .formu{
+        width: 90%;
+        h4{
+            margin-right: 85px;
+        }
+    }
+    .Contac-con{
+        margin-top: 500px;
     }
 }

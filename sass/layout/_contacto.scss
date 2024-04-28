@@ -92,6 +92,13 @@ $Colortitulo: Blue;
     font-size: 16px;
     box-shadow: 4px 4px 6px grey
 }
+.Contac-con{
+    display: flex;
+    flex-direction:row-reverse;
+    background-color: red;
+    list-style: none;
+    gap: 15px;
+}
 .parraconDos{
     @extend .parracon;
     color: red;

@@ -8,6 +8,7 @@ $colorplanes:(
     text-align: center;
     text-shadow: 2px 5px 5px grey;
     font-family: "Oswald", sans-serif;
+    background-color: black;
 }
 .presen-plan{
     font-size: 23px;
@@ -29,22 +30,37 @@ $colorplanes:(
     width: 200px;
     height: 350px;
     background-color: map-get($colorplanes, bronce );
+    border: 5px solid white;
+}
+.Sectionplan .planbronce h3{
+    text-decoration: none;
+    color: black;
+}
+.Sectionplan .planplata h3{
+    text-decoration: none;
+    color: black;
+}
+.Sectionplan .planoro h3{
+    text-decoration: none;
+    color: black;
 }
 .planplata{
     width: 200px;
     height: 350px;
     background-color: rgb(192, 192, 192);
+    border: 5px solid white;
 }
 .planoro{
     width: 200px;
     height: 350px;
     background-color: rgb(255, 215, 0);
+    border: 5px solid white;
 }
 .Bodyplan{
     width: 100%;
-    height: 500px;
+    height: 1200px;
     background-image: url("../assets/img/planes.jpg");
-    background-position: inherit;
+    background-position: center;
     background-size: cover;
 }
 .headerPlan{
@@ -77,6 +93,16 @@ $colorplanes:(
     gap: 15px;
     margin-top: 1500px;
 }
+.info-plan{
+    width:90%;
+    background-color: yellow;
+    border: 3px solid white;
+    margin-top: 350px;
+    margin-left: 73px;
+}
+.info-plan h2{
+    margin-left: 350px;
+}
 .Sectionplan{
     color: white;
     justify-items: center;
@@ -98,6 +124,27 @@ $colorplanes:(
 .lista-oro li::marker{
     content: "➡️";
 }
-.planbronce li .boton-bronce{
+.lista-bronce .boton-bronce{
     background-color: red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    margin-left: 50px;
+    margin-top: 50px;
+    box-shadow: 4px 4px 6px grey;
+}
+.lista-plata .boton-plata{
+    background-color: red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    margin-left: 50px;
+    margin-top: 30px;
+    box-shadow: 4px 4px 6px grey;
+}
+.lista-oro .boton-oro{
+    background-color: red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    margin-left: 50px;
+    margin-top: 10px;
+    box-shadow: 4px 4px 6px grey;
 }

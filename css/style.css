@@ -135,6 +135,7 @@ form input:focus {
 
 .h1Enca {
   margin-top: 55px;
+  background-color: black;
   text-align: center;
   text-shadow: 2px 5px 5px grey;
   font-family: "Oswald", sans-serif;
@@ -277,11 +278,20 @@ form input:focus {
   color: white;
 }
 
+.Contac-index {
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: red;
+  list-style: none;
+  gap: 15px;
+}
+
 /*header y main de planes*/
 .h1Plan {
   text-align: center;
   text-shadow: 2px 5px 5px grey;
   font-family: "Oswald", sans-serif;
+  background-color: black;
 }
 
 .presen-plan {
@@ -306,25 +316,43 @@ form input:focus {
   width: 200px;
   height: 350px;
   background-color: rgb(214, 143, 12);
+  border: 5px solid white;
+}
+
+.Sectionplan .planbronce h3 {
+  text-decoration: none;
+  color: black;
+}
+
+.Sectionplan .planplata h3 {
+  text-decoration: none;
+  color: black;
+}
+
+.Sectionplan .planoro h3 {
+  text-decoration: none;
+  color: black;
 }
 
 .planplata {
   width: 200px;
   height: 350px;
   background-color: rgb(192, 192, 192);
+  border: 5px solid white;
 }
 
 .planoro {
   width: 200px;
   height: 350px;
   background-color: rgb(255, 215, 0);
+  border: 5px solid white;
 }
 
 .Bodyplan {
   width: 100%;
-  height: 500px;
+  height: 1200px;
   background-image: url("../assets/img/planes.jpg");
-  background-position: inherit;
+  background-position: center;
   background-size: cover;
 }
 
@@ -364,6 +392,18 @@ form input:focus {
   margin-top: 1500px;
 }
 
+.info-plan {
+  width: 90%;
+  background-color: yellow;
+  border: 3px solid white;
+  margin-top: 350px;
+  margin-left: 73px;
+}
+
+.info-plan h2 {
+  margin-left: 350px;
+}
+
 .Sectionplan {
   color: white;
   justify-items: center;
@@ -392,10 +432,38 @@ form input:focus {
   content: "➡️";
 }
 
+.lista-bronce .boton-bronce {
+  background-color: red;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 16px;
+  margin-left: 50px;
+  margin-top: 50px;
+  box-shadow: 4px 4px 6px grey;
+}
+
+.lista-plata .boton-plata {
+  background-color: red;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 16px;
+  margin-left: 50px;
+  margin-top: 30px;
+  box-shadow: 4px 4px 6px grey;
+}
+
+.lista-oro .boton-oro {
+  background-color: red;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 16px;
+  margin-left: 50px;
+  margin-top: 10px;
+  box-shadow: 4px 4px 6px grey;
+}
+
 .h1Ben {
   text-align: center;
   text-shadow: 2px 5px 5px grey;
   font-family: "Oswald", sans-serif;
+  background-color: black;
 }
 
 .Bodyben {
@@ -410,6 +478,7 @@ form input:focus {
   border: 3px solid white;
   width: 34%;
   margin-left: 460px;
+  margin-top: 150px;
 }
 
 .Classben {
@@ -545,6 +614,14 @@ form input:focus {
   box-shadow: 4px 4px 6px grey;
 }
 
+.Contac-con {
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: red;
+  list-style: none;
+  gap: 15px;
+}
+
 .parraconDos {
   color: red;
 }
@@ -558,13 +635,14 @@ h1 {
   text-align: center;
   text-shadow: 2px 5px 5px grey;
   font-family: "Oswald", sans-serif;
+  background-color: black;
 }
 
 .Bodynsumos {
   width: 100%;
-  height: 700px;
+  height: 3000px;
   background-image: url("../assets/img/insumos.jpg");
-  background-position: center;
+  background-position: center center;
   background-size: cover;
 }
 
@@ -575,6 +653,18 @@ h1 {
   flex-direction: row-reverse;
   list-style: none;
   gap: 0.9375rem;
+}
+
+.info-insu {
+  width: 80%;
+  background-color: black;
+  color: white;
+  margin-left: 75px;
+  border: 3px solid white;
+  margin-top: 280px;
+}
+.info-insu h2 {
+  margin-left: 150px;
 }
 
 .section-grid {
@@ -683,6 +773,14 @@ h1 {
     display: none;
   }
 }
+@media (max-width: 1245) {
+  .info {
+    margin-bottom: 85px;
+  }
+  .Bodyplan {
+    width: 100%;
+  }
+}
 @media (max-width: 1024px) {
   .Bodynsumos form {
     display: none;
@@ -691,6 +789,15 @@ h1 {
 @media (max-width: 768px) {
   .headerIndex {
     background-color: rgba(28, 34, 56, 0.5333333333);
+  }
+  .main-index .h1Enca {
+    background-color: black;
+  }
+  .info {
+    display: none;
+  }
+  .Contac-index {
+    margin-top: 1000px;
   }
   .main-p {
     margin-right: 60px;
@@ -719,7 +826,7 @@ h1 {
   .Bodynicio {
     width: 100%;
     height: 31.25rem;
-    background-image: url("../assets/img/pag  inicio.");
+    background-image: linear-gradient(to bottom, #fd3a13, #c1202a, #81182a, #42141e, #000000);
     background-position: center;
     background-size: cover;
   }
@@ -739,10 +846,13 @@ h1 {
   }
   .Bodyplan {
     width: 100%;
-    height: 500px;
-    background-image: url("../assets/img/planes.jpg");
-    background-position: initial;
-    background-size: cover;
+    height: 2200px;
+    background-image: linear-gradient(to bottom, #fd3a13, #c1202a, #81182a, #42141e, #000000);
+    background-position: center;
+    background-size: contain;
+  }
+  .h1Plan {
+    background-color: black;
   }
   .Sectionplan {
     display: flex;
@@ -751,12 +861,38 @@ h1 {
     align-items: center;
     gap: 50px;
   }
+  .info-plan {
+    margin-right: 150px;
+    width: 80%;
+  }
+  .info-plan h2 {
+    margin-left: 13px;
+  }
   .Bodyben {
     width: 100%;
+    height: 2290px;
+    background-image: linear-gradient(to bottom, #fd3a13, #c1202a, #81182a, #42141e, #000000);
+  }
+  .h1Ben {
+    background-color: black;
+  }
+  .info-ben {
+    width: 50%;
     height: 500px;
+    margin-left: 200px;
+  }
+  .info-ben h2 {
+    margin-left: 50px;
   }
   .inicio-ben {
     display: none;
+  }
+  .section-nutri {
+    height: 14%;
+    width: 455px;
+    grid-template-columns: 1, 1fr;
+    grid-template-rows: 1, 1fr;
+    margin-left: 150px;
   }
   .titu-nutri {
     margin-left: 50px;
@@ -774,10 +910,26 @@ h1 {
   }
   .Bodynsumos {
     width: 100%;
-    height: 31.25rem;
-    background-image: url("../assets/img/insumos.jpg");
+    height: 2000px;
+    background-image: linear-gradient(to bottom, #fd3a13, #c1202a, #81182a, #42141e, #000000);
     background-position: center;
     background-size: cover;
+  }
+  .Classben {
+    margin-top: 50px;
+  }
+  .section-grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    width: 89%;
+    margin-left: 40px;
+  }
+  .Bodycon {
+    background-image: linear-gradient(to bottom, #fd3a13, #c1202a, #81182a, #42141e, #000000);
+    height: 1000px;
+  }
+  .section-con {
+    display: none;
   }
   .titu-prote {
     font-size: 15px;
@@ -805,6 +957,24 @@ h1 {
   }
 }
 @media (max-width: 320px) {
+  .Bodynicio {
+    height: 2000px;
+  }
+  .cards {
+    margin-top: 350px;
+  }
+  .cards .titulo-1 {
+    font-size: 12px;
+  }
+  .cards .titulo-2 {
+    font-size: 12px;
+  }
+  .cards .titulo-3 {
+    font-size: 12px;
+  }
+  .cards .boton {
+    display: none;
+  }
   .headerIndex {
     flex-direction: column;
   }
@@ -823,13 +993,13 @@ h1 {
   }
   .h1Enca {
     margin-top: 15px;
-    background-color: red;
-    color: black;
+    background-color: black;
+    color: red;
   }
   .presentacion {
     color: black;
     font-weight: bolder;
-    height: 10%;
+    height: 600px;
   }
   form {
     display: none;
@@ -847,9 +1017,13 @@ h1 {
   .navbarP {
     flex-direction: column;
   }
-  .navbarP li a {
+  .barraP .navbarP li a {
     font-size: 30px;
     margin-left: 35px;
+  }
+  .info-plan {
+    width: 90%;
+    margin-left: 15px;
   }
   form {
     display: none;
@@ -870,10 +1044,23 @@ h1 {
   .navbarinsu .inicio-insu {
     display: none;
   }
+  .info-insu {
+    width: 90%;
+    margin-left: 15px;
+  }
+  .info-insu h2 {
+    margin-left: 50px;
+  }
   .section-grid {
-    grid-template-columns: auto;
-    height: 80%;
+    width: 90%;
+    grid-template-columns: 1, 1fr;
+    grid-template-rows: 1, 1fr;
+    height: 90%;
     gap: 3px;
+    margin-left: 15px;
+  }
+  .section-nutri {
+    display: none;
   }
   .section-grid img {
     width: 100%;
@@ -925,21 +1112,25 @@ h1 {
     margin-left: 30px;
   }
   .Bodyben {
-    width: 100%;
-    height: 100%;
-    background-image: url("../assets/img/nutricion.jpg");
+    background-image: linear-gradient(to bottom, #fd3a13, #c1202a, #81182a, #42141e, #000000);
+    height: 1000px;
     background-position: top;
     background-size: contain;
     background-repeat: repeat;
+  }
+  .info-ben {
+    width: 90%;
+    margin-left: 15px;
+    height: 600px;
   }
   .Classben {
     margin-top: 45px;
   }
   .nutrimg {
-    grid-column: 2/3;
-    grid-row: 2/4;
+    display: none;
   }
   .titu-nutri {
+    display: none;
     grid-column: 2/3;
     grid-row: 2/3;
     color: white;
@@ -971,11 +1162,19 @@ h1 {
     display: none;
   }
   .Bodycon {
-    width: 100%;
-    height: 31.25em;
-    background-image: url("../assets/img/pie de pag.jpg");
+    background-image: linear-gradient(to bottom, #fd3a13, #c1202a, #81182a, #42141e, #000000);
+    height: 1000px;
     background-position: center;
     background-size: cover;
+  }
+  .formu {
+    width: 90%;
+  }
+  .formu h4 {
+    margin-right: 85px;
+  }
+  .Contac-con {
+    margin-top: 500px;
   }
 }
 

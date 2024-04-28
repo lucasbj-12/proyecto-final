@@ -8,6 +8,7 @@ $color-presentacion: black;
 }
 .h1Enca{
     margin-top: 55px;
+    background-color: black;
     text-align: center;
     text-shadow: 2px 5px 5px grey;
     font-family: "Oswald", sans-serif;
@@ -128,4 +129,11 @@ background-color: black;
             margin-left: 300px;
             color: white;
         }
+    }
+    .Contac-index{
+        display: flex;
+        flex-direction: row-reverse;
+        background-color: red;
+        list-style: none;
+        gap: 15px;
     }
